@@ -15,13 +15,13 @@ def test_matches():
     response_finished = testing_client.get('/matches/results')
     assert response_schedule.status_code == 200
     assert response_finished.status_code == 200
-    print(response_schedule)
-    print(response_finished)
+    print(response_schedul.json())
+    print(response_finished.json())
 
 def test_tournaments():
     response = testing_client.get('/events')
     assert response.status_code == 200
-    print(response)
+    print(response.json())
 
 
 
