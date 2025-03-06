@@ -3,8 +3,6 @@ from fastapi import FastAPI
 from fastapi.testclient import TestClient
 from main import app
 
-testing_client = TestClient(app)
-
 
 def test_health():
     response = testing_client.get("/")
@@ -24,6 +22,15 @@ def test_tournaments():
     response = testing_client.get('/events')
     assert response.status_code == 200
     print(response)
+
+
+
+testing_client = TestClient(app)
+test_health()
+test_matches()
+test_tournaments()
+
+
 
 
 
