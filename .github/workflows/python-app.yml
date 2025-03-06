@@ -37,5 +37,7 @@ jobs:
     - name: Run main.py and curl to see if working
       run: |
         uvicorn main:app --reload --port 9091 &
+        process_id=$!
+        wait $process_id
         curl 'GET' 'localhost:9091/results'
         
