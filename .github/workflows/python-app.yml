@@ -36,6 +36,6 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Run main.py and curl to see if working
       run: |
-        python3 main.py &
+        uvicorn main:app --reload --port 9091 &
         curl 'GET' 'localhost:9091/results'
         
