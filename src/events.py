@@ -93,7 +93,8 @@ class Events:
                         lowerBracket.append(self.bracketParser(col))
                 brackets.append({ 'upper' : upperBracket, 'lower': lowerBracket })
             event['bracket'] = brackets
-        else:
+        elif(len(soup.find_all('div',class_="mod-upper")) > 0):
+
             upperBracket = []
             if len(soup.find_all('div', class_="bracket-container mod-upper")) > 0:
                 upperBracketContainer = soup.find_all('div', class_="bracket-container mod-upper")[0]
@@ -118,6 +119,12 @@ class Events:
                 for col in lowercols:
                     lowerBracket.append(self.bracketParser(col))
             event['bracket'] = [{ 'upper' : upperBracket, 'lower': lowerBracket }]
+        else:
+            event_content = soup.find_all('div', class_="event-group-block")[0]
+            table = event_content.find_all('table', class_="wf-table")[0]
+            self.roundRobinParser(event_content)
+
+
 
         participants = []
         if len(soup.find_all('div', class_="event-teams-container")) > 0:
@@ -162,6 +169,12 @@ class Events:
         event['matches'] = matches
 
         return event
+
+
+    def roundRobinParser(self, roundRobinTable):
+        bottom_card = roundRobinTable.find_all('div', class_="wf-cardzx")[0]
+        bottom_card = bottom_card.find_all('div', class_="group-expand-target")[0]
+        
 
 
     def bracketParser(self, bracketCol):

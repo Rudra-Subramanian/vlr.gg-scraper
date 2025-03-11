@@ -64,7 +64,7 @@ class Match:
         return {'id': self.match_id, 'title': self.title, 'status': self.status, 'prize': self.prize, 'dates': self.dates, 'location': self.location, 'img_url': self.img_url, 'games': jsonified_games}
 
     def find_games(self):
-        response = client.get('/matches/{}'.format(self.match_id))
+        response = client.get('/match/{}'.format(self.match_id))
         #print(response.status_code)
         self.all_games = response.json()
     
@@ -88,16 +88,20 @@ class Tournament:
         self.upcoming_matches = []
         self.completed_matches = []
         self.find_data()
-        self.init_matches()
+        #self.init_matches()
     
 
     def find_data(self):
-        response = client.get('/events/{}'.format(self.id))
-        print(response.status_code)
+        print(self.id)
+        response = client.get('/event/{}'.format(self.id))
+        assert response.status_code == 200
         self.all_data = response.json()
+        self.matches = self.all_data['matches']
+        print(self.matches)
     
     def init_matches(self):
         #print('Upcoming Games:')
+        print(self.all_data.keys())
         for match in self.all_data['upcoming']:
             #print('Match: {} \n date: {}\n\n'.format(match['id'], match['location']))
             self.upcoming_matches.append(Match(match['id'], match['title'], match['status'], match['prize'], match['dates'], match['location'], match['img'], self.title))
@@ -154,12 +158,9 @@ if __name__ == '__main__':
     global max_iterations
     max_iterations = 2
     client = TestClient(app)
-    #upcoming_tournaments, completed_tournaments = get_all_tournaments()
+    upcoming_tournaments, completed_tournaments = get_all_tournaments()
     #print(upcoming_tournaments[0])
-    response = client.get('/events/2301')
-    print(response.status_code)
-    print(response.json())
     #print('Upcoming Tournaments 1:{} \n\n\n\n\n\n\n\n\n completed tournament 1: {}'.format(upcoming_tournaments[0], completed_tournaments[0]))
     #print('Upcoming Tournaments 1:{} \n\n\n\n\n\n\n\n\n completed tournament 1: {}'.format(upcoming_tournaments[0].keys(), completed_tournaments[0].keys()))
     
-    #json.dumps(upcoming_tournaments_formatted[0].jsonify(), indent=4) TO JSON DUMP FOR JSON FOLDER LATER
+    #print(json.dumps(upcoming_tournaments[0].jsonify(), indent=4)) #TO JSON DUMP FOR JSON FOLDER LATER

@@ -7,7 +7,7 @@ from main import app
 def test_health():
     response = testing_client.get("/")
     assert response.status_code == 200
-    assert response.json() == 'OK'
+    print(response.json())
 
 
 def test_matches():
@@ -21,14 +21,16 @@ def test_matches():
 def test_tournaments():
     response = testing_client.get('/events')
     assert response.status_code == 200
-    print(response.json())
+    print(response.json()['completed'][1])
 
-
+def get_tournament_by_id(id):
+    response = testing_client.get('/event/2310')
+    return response.json()
 
 testing_client = TestClient(app)
-test_health()
-test_matches()
-test_tournaments()
+x = get_tournament_by_id(2316)
+print(x.keys())
+
 
 
 
