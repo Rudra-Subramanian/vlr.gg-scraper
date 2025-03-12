@@ -6,6 +6,7 @@ from src.player import Player
 from src.events import Events
 from src.streams import Streams
 from src.rankings import Rankings
+from src.vcl import VCLEvents
 
 app = FastAPI(
     title="VLR.gg Scraper",
@@ -90,6 +91,14 @@ async def events():
     """
     events = Events()
     return events.events("")
+
+@app.get("/vcl-2025", tags=["events"])
+async def events():
+    """
+    Gets all events from the VLR events page
+    """
+    events = VCLEvents()
+    return events.events()
 
 @app.get("/events/{region}", tags=["events"])
 async def events(region):

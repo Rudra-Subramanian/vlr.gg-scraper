@@ -27,9 +27,15 @@ def get_tournament_by_id(id):
     response = testing_client.get('/event/2310')
     return response.json()
 
+def get_required_tournaments():
+    vcl_response = testing_client.get('/vcl-2025')
+    game_changers_response = testing_client.get('events/game-changers')
+    print(vcl_response.status_code)
+    print(game_changers_response.status_code)
+    return vcl_response.json(), game_changers_response.json()
 testing_client = TestClient(app)
-x = get_tournament_by_id(2316)
-print(x.keys())
+x, y = get_required_tournaments()
+print(y.keys())
 
 
 
