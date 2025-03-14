@@ -188,7 +188,7 @@ class Matches:
             team1img = "https:" + team1img
         team2name = matchHeader.find_all("div", class_="wf-title-med")[1].get_text().strip()
         team2img = matchHeader.find_all("a", class_="match-header-link")[1].find('img')['src']
-        print(team2img)
+        #print(team2img)
         if team2img == '/img/vlr/tmp/vlr.png':
             team2img = "https://vlr.gg" + team2img
         else:
@@ -234,19 +234,19 @@ class Matches:
                 team1 =  map.find_all("div", class_="team-name")[0].get_text().strip()
                 score2 = map.find_all("div", class_="score")[1].get_text().strip()
                 team2 =  map.find_all("div", class_="team-name")[1].get_text().strip()
-                print([map1['name'] for map1 in maps if map1['id'] == id][0])
-                print(team1, score1)
-                print(team2, score2)
+                #print([map1['name'] for map1 in maps if map1['id'] == id][0])
+                #print(team1, score1)
+                #print(team2, score2)
                 mapName = [map1['name'] for map1 in maps if map1['id'] == id][0]
                 team1Obj = {'name': team1, 'score': score1 }
                 team2Obj = {'name': team2, 'score': score2 }
-                print('')
+                #print('')
             else:
-                print([map1['name'] for map1 in maps if map1['id'] == id][0])
+                #print([map1['name'] for map1 in maps if map1['id'] == id][0])
                 mapName = [map1['name'] for map1 in maps if map1['id'] == id][0]
                 team1Obj = {}
                 team2Obj = {}
-                print('')
+                #print('')
             scoreboard = map.find_all('tbody')
             members = []
 
@@ -258,10 +258,14 @@ class Matches:
                 for round in maprounds:
                     current = []
                     roundWinner = ""
-                    if len(round.find_all("div", class_="rnd-currscore")) > 0:
+                    #print(type(round))
+                    if len(round.find_all("div", class_="rnd-num")) > 0:
+                        
                         roundNum = round.find_all("div", class_="rnd-num")[0].get_text().strip()
-                        roundScore = round.find_all("div", class_="rnd-currscore")[0].get_text().strip()
-                        print(roundScore)
+                        #print('making round score')
+                        roundScore = round.get('title')
+
+                        #print(roundScore)
                         if roundScore != "":
                             current = [int(i) for i in roundScore.split("-")]
                             if prev[0] == current[0]:
@@ -288,7 +292,7 @@ class Matches:
                                 winType = 'Not Played'
                         else:
                             winType = 'Not Played'
-                        print(roundNum, roundScore, winType)
+                        #print(roundNum, roundScore, winType)
                     rounds.append({ 'roundNum': roundNum, 'roundScore': roundScore, 'winner': roundWinner, 'side': side, 'winType': winType })
                         
 
@@ -310,8 +314,8 @@ class Matches:
                         agents.append({'name' : title, 'img': "https://vlr.gg" + src})
                     member = {'name': name, 'team': teamName, 'agents': agents, 'acs': acs, 'kills' : kills, 'deaths': deaths, 'assists': assists, 'HSpercent': hs}
                     members.append(member)
-                    print(name, teamName, agents)
-                print('')
+                    #print(name, teamName, agents)
+                #print('')
             mapData.append({'map': mapName, 'teams': [team1Obj, team2Obj], 'members': members, 'rounds': rounds})
 
         if len(soup.find_all('div',class_="match-h2h-matches")) > 0:
