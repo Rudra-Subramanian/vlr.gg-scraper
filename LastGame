@@ -1,0 +1,923 @@
+{
+    "teams": [
+        {
+            "name": "Team Galaga Kitsune",
+            "img": "https://owcdn.net/img/60190283036b6.png"
+        },
+        {
+            "name": "Melilla Titans Aura",
+            "img": "https://vlr.gg/img/vlr/tmp/vlr.png"
+        }
+    ],
+    "score": "2:0",
+    "note": "",
+    "event": {
+        "id": "2357",
+        "img": "https://owcdn.net/img/62220ea912e96.png",
+        "series": "Liga Radiante Female Season 2",
+        "stage": "Group Stage: Round 1",
+        "date": "Wednesday, February 12th, 11:00 AM EST"
+    },
+    "data": [
+        {
+            "map": "Abyss",
+            "teams": [
+                {
+                    "name": "Team Galaga Kitsune",
+                    "score": "13"
+                },
+                {
+                    "name": "Melilla Titans Aura",
+                    "score": "11"
+                }
+            ],
+            "members": [
+                {
+                    "name": "SendyClaire",
+                    "team": "Team",
+                    "agents": [
+                        {
+                            "name": "Astra",
+                            "img": "https://vlr.gg/img/vlr/game/agents/astra.png"
+                        }
+                    ],
+                    "acs": "1.45\n1.11\n1.79",
+                    "kills": "21\n7\n14",
+                    "deaths": "\n\n14\n5\n9\n\n",
+                    "assists": "9\n4\n5",
+                    "HSpercent": "79%\n83%\n75%"
+                },
+                {
+                    "name": "Flora",
+                    "team": "Team",
+                    "agents": [
+                        {
+                            "name": "Yoru",
+                            "img": "https://vlr.gg/img/vlr/game/agents/yoru.png"
+                        }
+                    ],
+                    "acs": "1.04\n1.66\n0.41",
+                    "kills": "18\n15\n3",
+                    "deaths": "\n\n18\n7\n11\n\n",
+                    "assists": "7\n3\n4",
+                    "HSpercent": "67%\n83%\n50%"
+                },
+                {
+                    "name": "xKittyx",
+                    "team": "Team",
+                    "agents": [
+                        {
+                            "name": "Iso",
+                            "img": "https://vlr.gg/img/vlr/game/agents/iso.png"
+                        }
+                    ],
+                    "acs": "0.98\n0.96\n0.99",
+                    "kills": "19\n10\n9",
+                    "deaths": "\n\n21\n10\n11\n\n",
+                    "assists": "4\n4\n0",
+                    "HSpercent": "67%\n83%\n50%"
+                },
+                {
+                    "name": "lilHass",
+                    "team": "Team",
+                    "agents": [
+                        {
+                            "name": "Omen",
+                            "img": "https://vlr.gg/img/vlr/game/agents/omen.png"
+                        }
+                    ],
+                    "acs": "0.97\n0.81\n1.14",
+                    "kills": "17\n7\n10",
+                    "deaths": "\n\n17\n8\n9\n\n",
+                    "assists": "4\n3\n1",
+                    "HSpercent": "83%\n92%\n75%"
+                },
+                {
+                    "name": "ella",
+                    "team": "Team",
+                    "agents": [
+                        {
+                            "name": "Sova",
+                            "img": "https://vlr.gg/img/vlr/game/agents/sova.png"
+                        }
+                    ],
+                    "acs": "0.73\n1.26\n0.20",
+                    "kills": "12\n10\n2",
+                    "deaths": "\n\n17\n6\n11\n\n",
+                    "assists": "6\n0\n6",
+                    "HSpercent": "67%\n83%\n50%"
+                },
+                {
+                    "name": "Lil",
+                    "team": "Meli",
+                    "agents": [
+                        {
+                            "name": "Breach",
+                            "img": "https://vlr.gg/img/vlr/game/agents/breach.png"
+                        }
+                    ],
+                    "acs": "1.19\n1.27\n1.11",
+                    "kills": "18\n9\n9",
+                    "deaths": "\n\n15\n7\n8\n\n",
+                    "assists": "12\n6\n6",
+                    "HSpercent": "83%\n75%\n92%"
+                },
+                {
+                    "name": "Ralbai",
+                    "team": "Meli",
+                    "agents": [
+                        {
+                            "name": "Astra",
+                            "img": "https://vlr.gg/img/vlr/game/agents/astra.png"
+                        }
+                    ],
+                    "acs": "1.15\n1.15\n1.15",
+                    "kills": "21\n10\n11",
+                    "deaths": "\n\n20\n9\n11\n\n",
+                    "assists": "14\n8\n6",
+                    "HSpercent": "67%\n67%\n67%"
+                },
+                {
+                    "name": "MoniOvess",
+                    "team": "Meli",
+                    "agents": [
+                        {
+                            "name": "Tejo",
+                            "img": "https://vlr.gg/img/vlr/game/agents/tejo.png"
+                        }
+                    ],
+                    "acs": "0.89\n1.04\n0.74",
+                    "kills": "17\n10\n7",
+                    "deaths": "\n\n18\n8\n10\n\n",
+                    "assists": "8\n4\n4",
+                    "HSpercent": "79%\n83%\n75%"
+                },
+                {
+                    "name": "Noemium",
+                    "team": "Meli",
+                    "agents": [
+                        {
+                            "name": "Jett",
+                            "img": "https://vlr.gg/img/vlr/game/agents/jett.png"
+                        }
+                    ],
+                    "acs": "0.85\n1.01\n0.68",
+                    "kills": "15\n9\n6",
+                    "deaths": "\n\n16\n7\n9\n\n",
+                    "assists": "4\n3\n1",
+                    "HSpercent": "75%\n67%\n83%"
+                },
+                {
+                    "name": "Nat",
+                    "team": "Meli",
+                    "agents": [
+                        {
+                            "name": "Sova",
+                            "img": "https://vlr.gg/img/vlr/game/agents/sova.png"
+                        }
+                    ],
+                    "acs": "0.75\n1.18\n0.31",
+                    "kills": "15\n12\n3",
+                    "deaths": "\n\n18\n7\n11\n\n",
+                    "assists": "6\n4\n2",
+                    "HSpercent": "63%\n75%\n50%"
+                }
+            ],
+            "rounds": [
+                {
+                    "roundNum": "1",
+                    "roundScore": "1-0",
+                    "winner": "team1",
+                    "side": "attack",
+                    "winType": "Elimination"
+                },
+                {
+                    "roundNum": "2",
+                    "roundScore": "2-0",
+                    "winner": "team1",
+                    "side": "attack",
+                    "winType": "Spiked out"
+                },
+                {
+                    "roundNum": "3",
+                    "roundScore": "3-0",
+                    "winner": "team1",
+                    "side": "attack",
+                    "winType": "Elimination"
+                },
+                {
+                    "roundNum": "4",
+                    "roundScore": "4-0",
+                    "winner": "team1",
+                    "side": "attack",
+                    "winType": "Elimination"
+                },
+                {
+                    "roundNum": "5",
+                    "roundScore": "5-0",
+                    "winner": "team1",
+                    "side": "attack",
+                    "winType": "Elimination"
+                },
+                {
+                    "roundNum": "6",
+                    "roundScore": "5-1",
+                    "winner": "team2",
+                    "side": "defense",
+                    "winType": "Elimination"
+                },
+                {
+                    "roundNum": "7",
+                    "roundScore": "6-1",
+                    "winner": "team1",
+                    "side": "attack",
+                    "winType": "Elimination"
+                },
+                {
+                    "roundNum": "8",
+                    "roundScore": "7-1",
+                    "winner": "team1",
+                    "side": "attack",
+                    "winType": "Elimination"
+                },
+                {
+                    "roundNum": "9",
+                    "roundScore": "8-1",
+                    "winner": "team1",
+                    "side": "attack",
+                    "winType": "Elimination"
+                },
+                {
+                    "roundNum": "10",
+                    "roundScore": "9-1",
+                    "winner": "team1",
+                    "side": "attack",
+                    "winType": "Spiked out"
+                },
+                {
+                    "roundNum": "11",
+                    "roundScore": "9-2",
+                    "winner": "team2",
+                    "side": "defense",
+                    "winType": "Elimination"
+                },
+                {
+                    "roundNum": "12",
+                    "roundScore": "9-3",
+                    "winner": "team2",
+                    "side": "defense",
+                    "winType": "Elimination"
+                },
+                {
+                    "roundNum": "12",
+                    "roundScore": "9-3",
+                    "winner": "",
+                    "side": "defense",
+                    "winType": "Elimination"
+                },
+                {
+                    "roundNum": "13",
+                    "roundScore": "9-4",
+                    "winner": "team2",
+                    "side": "attack",
+                    "winType": "Elimination"
+                },
+                {
+                    "roundNum": "14",
+                    "roundScore": "9-5",
+                    "winner": "team2",
+                    "side": "attack",
+                    "winType": "Elimination"
+                },
+                {
+                    "roundNum": "15",
+                    "roundScore": "10-5",
+                    "winner": "team1",
+                    "side": "defense",
+                    "winType": "Defused"
+                },
+                {
+                    "roundNum": "16",
+                    "roundScore": "10-6",
+                    "winner": "team2",
+                    "side": "attack",
+                    "winType": "Elimination"
+                },
+                {
+                    "roundNum": "17",
+                    "roundScore": "10-7",
+                    "winner": "team2",
+                    "side": "attack",
+                    "winType": "Elimination"
+                },
+                {
+                    "roundNum": "18",
+                    "roundScore": "10-8",
+                    "winner": "team2",
+                    "side": "attack",
+                    "winType": "Elimination"
+                },
+                {
+                    "roundNum": "19",
+                    "roundScore": "11-8",
+                    "winner": "team1",
+                    "side": "defense",
+                    "winType": "Defused"
+                },
+                {
+                    "roundNum": "20",
+                    "roundScore": "12-8",
+                    "winner": "team1",
+                    "side": "defense",
+                    "winType": "Defused"
+                },
+                {
+                    "roundNum": "21",
+                    "roundScore": "12-9",
+                    "winner": "team2",
+                    "side": "attack",
+                    "winType": "Elimination"
+                },
+                {
+                    "roundNum": "22",
+                    "roundScore": "12-10",
+                    "winner": "team2",
+                    "side": "attack",
+                    "winType": "Elimination"
+                },
+                {
+                    "roundNum": "23",
+                    "roundScore": "12-11",
+                    "winner": "team2",
+                    "side": "attack",
+                    "winType": "Elimination"
+                },
+                {
+                    "roundNum": "24",
+                    "roundScore": "13-11",
+                    "winner": "team1",
+                    "side": "defense",
+                    "winType": "Elimination"
+                }
+            ]
+        },
+        {
+            "map": "All Maps",
+            "teams": [
+                {},
+                {}
+            ],
+            "members": [
+                {
+                    "name": "SendyClaire",
+                    "team": "Team",
+                    "agents": [
+                        {
+                            "name": "Astra",
+                            "img": "https://vlr.gg/img/vlr/game/agents/astra.png"
+                        },
+                        {
+                            "name": "Killjoy",
+                            "img": "https://vlr.gg/img/vlr/game/agents/killjoy.png"
+                        }
+                    ],
+                    "acs": "1.07\n1.95\n1.51",
+                    "kills": "47\n15\n32",
+                    "deaths": "\n\n30\n13\n17\n\n",
+                    "assists": "15\n7\n8",
+                    "HSpercent": "79%\n75%\n83%"
+                },
+                {
+                    "name": "Flora",
+                    "team": "Team",
+                    "agents": [
+                        {
+                            "name": "Yoru",
+                            "img": "https://vlr.gg/img/vlr/game/agents/yoru.png"
+                        },
+                        {
+                            "name": "Omen",
+                            "img": "https://vlr.gg/img/vlr/game/agents/omen.png"
+                        }
+                    ],
+                    "acs": "1.66\n0.65\n1.16",
+                    "kills": "38\n29\n9",
+                    "deaths": "\n\n33\n14\n19\n\n",
+                    "assists": "18\n5\n13",
+                    "HSpercent": "65%\n79%\n50%"
+                },
+                {
+                    "name": "xKittyx",
+                    "team": "Team",
+                    "agents": [
+                        {
+                            "name": "Iso",
+                            "img": "https://vlr.gg/img/vlr/game/agents/iso.png"
+                        },
+                        {
+                            "name": "Neon",
+                            "img": "https://vlr.gg/img/vlr/game/agents/neon.png"
+                        }
+                    ],
+                    "acs": "0.78\n1.09\n0.93",
+                    "kills": "34\n15\n19",
+                    "deaths": "\n\n40\n19\n21\n\n",
+                    "assists": "12\n7\n5",
+                    "HSpercent": "67%\n71%\n63%"
+                },
+                {
+                    "name": "lilHass",
+                    "team": "Team",
+                    "agents": [
+                        {
+                            "name": "Omen",
+                            "img": "https://vlr.gg/img/vlr/game/agents/omen.png"
+                        },
+                        {
+                            "name": "Breach",
+                            "img": "https://vlr.gg/img/vlr/game/agents/breach.png"
+                        }
+                    ],
+                    "acs": "0.82\n0.84\n0.83",
+                    "kills": "32\n17\n15",
+                    "deaths": "\n\n39\n19\n20\n\n",
+                    "assists": "11\n6\n5",
+                    "HSpercent": "75%\n83%\n67%"
+                },
+                {
+                    "name": "ella",
+                    "team": "Team",
+                    "agents": [
+                        {
+                            "name": "Sova",
+                            "img": "https://vlr.gg/img/vlr/game/agents/sova.png"
+                        },
+                        {
+                            "name": "Tejo",
+                            "img": "https://vlr.gg/img/vlr/game/agents/tejo.png"
+                        }
+                    ],
+                    "acs": "0.91\n0.33\n0.62",
+                    "kills": "19\n13\n6",
+                    "deaths": "\n\n35\n14\n21\n\n",
+                    "assists": "14\n5\n9",
+                    "HSpercent": "63%\n67%\n58%"
+                },
+                {
+                    "name": "Ralbai",
+                    "team": "Meli",
+                    "agents": [
+                        {
+                            "name": "Astra",
+                            "img": "https://vlr.gg/img/vlr/game/agents/astra.png"
+                        },
+                        {
+                            "name": "Omen",
+                            "img": "https://vlr.gg/img/vlr/game/agents/omen.png"
+                        }
+                    ],
+                    "acs": "1.44\n1.18\n1.31",
+                    "kills": "49\n27\n22",
+                    "deaths": "\n\n37\n17\n20\n\n",
+                    "assists": "20\n10\n10",
+                    "HSpercent": "75%\n75%\n75%"
+                },
+                {
+                    "name": "Lil",
+                    "team": "Meli",
+                    "agents": [
+                        {
+                            "name": "Breach",
+                            "img": "https://vlr.gg/img/vlr/game/agents/breach.png"
+                        }
+                    ],
+                    "acs": "1.14\n1.08\n1.11",
+                    "kills": "33\n16\n17",
+                    "deaths": "\n\n31\n14\n17\n\n",
+                    "assists": "27\n14\n13",
+                    "HSpercent": "79%\n79%\n79%"
+                },
+                {
+                    "name": "MoniOvess",
+                    "team": "Meli",
+                    "agents": [
+                        {
+                            "name": "Tejo",
+                            "img": "https://vlr.gg/img/vlr/game/agents/tejo.png"
+                        }
+                    ],
+                    "acs": "0.98\n0.96\n0.97",
+                    "kills": "32\n17\n15",
+                    "deaths": "\n\n33\n16\n17\n\n",
+                    "assists": "13\n6\n7",
+                    "HSpercent": "75%\n71%\n79%"
+                },
+                {
+                    "name": "Nat",
+                    "team": "Meli",
+                    "agents": [
+                        {
+                            "name": "Sova",
+                            "img": "https://vlr.gg/img/vlr/game/agents/sova.png"
+                        },
+                        {
+                            "name": "Killjoy",
+                            "img": "https://vlr.gg/img/vlr/game/agents/killjoy.png"
+                        }
+                    ],
+                    "acs": "1.13\n0.73\n0.93",
+                    "kills": "32\n22\n10",
+                    "deaths": "\n\n36\n17\n19\n\n",
+                    "assists": "17\n8\n9",
+                    "HSpercent": "75%\n88%\n63%"
+                },
+                {
+                    "name": "Noemium",
+                    "team": "Meli",
+                    "agents": [
+                        {
+                            "name": "Jett",
+                            "img": "https://vlr.gg/img/vlr/game/agents/jett.png"
+                        },
+                        {
+                            "name": "Raze",
+                            "img": "https://vlr.gg/img/vlr/game/agents/raze.png"
+                        }
+                    ],
+                    "acs": "0.66\n0.84\n0.75",
+                    "kills": "30\n15\n15",
+                    "deaths": "\n\n34\n18\n16\n\n",
+                    "assists": "4\n3\n1",
+                    "HSpercent": "69%\n58%\n79%"
+                }
+            ],
+            "rounds": []
+        },
+        {
+            "map": "Lotus",
+            "teams": [
+                {
+                    "name": "Team Galaga Kitsune",
+                    "score": "13"
+                },
+                {
+                    "name": "Melilla Titans Aura",
+                    "score": "11"
+                }
+            ],
+            "members": [
+                {
+                    "name": "SendyClaire",
+                    "team": "Team",
+                    "agents": [
+                        {
+                            "name": "Killjoy",
+                            "img": "https://vlr.gg/img/vlr/game/agents/killjoy.png"
+                        }
+                    ],
+                    "acs": "1.57\n1.04\n2.10",
+                    "kills": "26\n8\n18",
+                    "deaths": "\n\n16\n8\n8\n\n",
+                    "assists": "6\n3\n3",
+                    "HSpercent": "79%\n67%\n92%"
+                },
+                {
+                    "name": "Flora",
+                    "team": "Team",
+                    "agents": [
+                        {
+                            "name": "Omen",
+                            "img": "https://vlr.gg/img/vlr/game/agents/omen.png"
+                        }
+                    ],
+                    "acs": "1.27\n1.66\n0.89",
+                    "kills": "20\n14\n6",
+                    "deaths": "\n\n15\n7\n8\n\n",
+                    "assists": "11\n2\n9",
+                    "HSpercent": "63%\n75%\n50%"
+                },
+                {
+                    "name": "xKittyx",
+                    "team": "Team",
+                    "agents": [
+                        {
+                            "name": "Neon",
+                            "img": "https://vlr.gg/img/vlr/game/agents/neon.png"
+                        }
+                    ],
+                    "acs": "0.89\n0.60\n1.19",
+                    "kills": "15\n5\n10",
+                    "deaths": "\n\n19\n9\n10\n\n",
+                    "assists": "8\n3\n5",
+                    "HSpercent": "67%\n58%\n75%"
+                },
+                {
+                    "name": "lilHass",
+                    "team": "Team",
+                    "agents": [
+                        {
+                            "name": "Breach",
+                            "img": "https://vlr.gg/img/vlr/game/agents/breach.png"
+                        }
+                    ],
+                    "acs": "0.68\n0.83\n0.54",
+                    "kills": "15\n10\n5",
+                    "deaths": "\n\n22\n11\n11\n\n",
+                    "assists": "7\n3\n4",
+                    "HSpercent": "67%\n75%\n58%"
+                },
+                {
+                    "name": "ella",
+                    "team": "Team",
+                    "agents": [
+                        {
+                            "name": "Tejo",
+                            "img": "https://vlr.gg/img/vlr/game/agents/tejo.png"
+                        }
+                    ],
+                    "acs": "0.51\n0.56\n0.46",
+                    "kills": "7\n3\n4",
+                    "deaths": "\n\n18\n8\n10\n\n",
+                    "assists": "8\n5\n3",
+                    "HSpercent": "58%\n50%\n67%"
+                },
+                {
+                    "name": "Ralbai",
+                    "team": "Meli",
+                    "agents": [
+                        {
+                            "name": "Omen",
+                            "img": "https://vlr.gg/img/vlr/game/agents/omen.png"
+                        }
+                    ],
+                    "acs": "1.46\n1.72\n1.21",
+                    "kills": "28\n17\n11",
+                    "deaths": "\n\n17\n8\n9\n\n",
+                    "assists": "6\n2\n4",
+                    "HSpercent": "83%\n83%\n83%"
+                },
+                {
+                    "name": "Nat",
+                    "team": "Meli",
+                    "agents": [
+                        {
+                            "name": "Killjoy",
+                            "img": "https://vlr.gg/img/vlr/game/agents/killjoy.png"
+                        }
+                    ],
+                    "acs": "1.12\n1.08\n1.15",
+                    "kills": "17\n10\n7",
+                    "deaths": "\n\n18\n10\n8\n\n",
+                    "assists": "11\n4\n7",
+                    "HSpercent": "88%\n100%\n75%"
+                },
+                {
+                    "name": "MoniOvess",
+                    "team": "Meli",
+                    "agents": [
+                        {
+                            "name": "Tejo",
+                            "img": "https://vlr.gg/img/vlr/game/agents/tejo.png"
+                        }
+                    ],
+                    "acs": "1.05\n0.93\n1.18",
+                    "kills": "15\n7\n8",
+                    "deaths": "\n\n15\n8\n7\n\n",
+                    "assists": "5\n2\n3",
+                    "HSpercent": "71%\n58%\n83%"
+                },
+                {
+                    "name": "Lil",
+                    "team": "Meli",
+                    "agents": [
+                        {
+                            "name": "Breach",
+                            "img": "https://vlr.gg/img/vlr/game/agents/breach.png"
+                        }
+                    ],
+                    "acs": "1.03\n1.01\n1.05",
+                    "kills": "15\n7\n8",
+                    "deaths": "\n\n16\n7\n9\n\n",
+                    "assists": "15\n8\n7",
+                    "HSpercent": "75%\n83%\n67%"
+                },
+                {
+                    "name": "Noemium",
+                    "team": "Meli",
+                    "agents": [
+                        {
+                            "name": "Raze",
+                            "img": "https://vlr.gg/img/vlr/game/agents/raze.png"
+                        }
+                    ],
+                    "acs": "0.66\n0.32\n1.00",
+                    "kills": "15\n6\n9",
+                    "deaths": "\n\n18\n11\n7\n\n",
+                    "assists": "0\n0\n0",
+                    "HSpercent": "63%\n50%\n75%"
+                }
+            ],
+            "rounds": [
+                {
+                    "roundNum": "1",
+                    "roundScore": "0-1",
+                    "winner": "team2",
+                    "side": "defense",
+                    "winType": "Defused"
+                },
+                {
+                    "roundNum": "2",
+                    "roundScore": "0-2",
+                    "winner": "team2",
+                    "side": "defense",
+                    "winType": "Elimination"
+                },
+                {
+                    "roundNum": "3",
+                    "roundScore": "0-3",
+                    "winner": "team2",
+                    "side": "defense",
+                    "winType": "Defused"
+                },
+                {
+                    "roundNum": "4",
+                    "roundScore": "0-4",
+                    "winner": "team2",
+                    "side": "defense",
+                    "winType": "Defused"
+                },
+                {
+                    "roundNum": "5",
+                    "roundScore": "1-4",
+                    "winner": "team1",
+                    "side": "attack",
+                    "winType": "Elimination"
+                },
+                {
+                    "roundNum": "6",
+                    "roundScore": "2-4",
+                    "winner": "team1",
+                    "side": "attack",
+                    "winType": "Elimination"
+                },
+                {
+                    "roundNum": "7",
+                    "roundScore": "3-4",
+                    "winner": "team1",
+                    "side": "attack",
+                    "winType": "Elimination"
+                },
+                {
+                    "roundNum": "8",
+                    "roundScore": "4-4",
+                    "winner": "team1",
+                    "side": "attack",
+                    "winType": "Elimination"
+                },
+                {
+                    "roundNum": "9",
+                    "roundScore": "5-4",
+                    "winner": "team1",
+                    "side": "attack",
+                    "winType": "Elimination"
+                },
+                {
+                    "roundNum": "10",
+                    "roundScore": "5-5",
+                    "winner": "team2",
+                    "side": "defense",
+                    "winType": "Defused"
+                },
+                {
+                    "roundNum": "11",
+                    "roundScore": "6-5",
+                    "winner": "team1",
+                    "side": "attack",
+                    "winType": "Elimination"
+                },
+                {
+                    "roundNum": "12",
+                    "roundScore": "6-6",
+                    "winner": "team2",
+                    "side": "defense",
+                    "winType": "Elimination"
+                },
+                {
+                    "roundNum": "12",
+                    "roundScore": "6-6",
+                    "winner": "",
+                    "side": "defense",
+                    "winType": "Elimination"
+                },
+                {
+                    "roundNum": "13",
+                    "roundScore": "6-7",
+                    "winner": "team2",
+                    "side": "attack",
+                    "winType": "Elimination"
+                },
+                {
+                    "roundNum": "14",
+                    "roundScore": "6-8",
+                    "winner": "team2",
+                    "side": "attack",
+                    "winType": "Elimination"
+                },
+                {
+                    "roundNum": "15",
+                    "roundScore": "7-8",
+                    "winner": "team1",
+                    "side": "defense",
+                    "winType": "Defused"
+                },
+                {
+                    "roundNum": "16",
+                    "roundScore": "8-8",
+                    "winner": "team1",
+                    "side": "defense",
+                    "winType": "Defused"
+                },
+                {
+                    "roundNum": "17",
+                    "roundScore": "9-8",
+                    "winner": "team1",
+                    "side": "defense",
+                    "winType": "Elimination"
+                },
+                {
+                    "roundNum": "18",
+                    "roundScore": "10-8",
+                    "winner": "team1",
+                    "side": "defense",
+                    "winType": "Defused"
+                },
+                {
+                    "roundNum": "19",
+                    "roundScore": "10-9",
+                    "winner": "team2",
+                    "side": "attack",
+                    "winType": "Elimination"
+                },
+                {
+                    "roundNum": "20",
+                    "roundScore": "10-10",
+                    "winner": "team2",
+                    "side": "attack",
+                    "winType": "Elimination"
+                },
+                {
+                    "roundNum": "21",
+                    "roundScore": "11-10",
+                    "winner": "team1",
+                    "side": "defense",
+                    "winType": "Elimination"
+                },
+                {
+                    "roundNum": "22",
+                    "roundScore": "12-10",
+                    "winner": "team1",
+                    "side": "defense",
+                    "winType": "Defused"
+                },
+                {
+                    "roundNum": "23",
+                    "roundScore": "12-11",
+                    "winner": "team2",
+                    "side": "attack",
+                    "winType": "Elimination"
+                },
+                {
+                    "roundNum": "24",
+                    "roundScore": "13-11",
+                    "winner": "team1",
+                    "side": "defense",
+                    "winType": "Elimination"
+                }
+            ]
+        }
+    ],
+    "head2head": [
+        {
+            "id": "360429",
+            "event": {
+                "img": "https://owcdn.net/img/604be13d01964.png",
+                "series": "GC 24 Spain: Split 2",
+                "stage": "UBSF",
+                "date": "2024/05/24"
+            },
+            "teams": [
+                {
+                    "team": "https://owcdn.net/img/60190283036b6.png",
+                    "winner": true,
+                    "score": "1"
+                },
+                {
+                    "team": "https://vlr.gg/img/vlr/tmp/vlr.png",
+                    "winner": false,
+                    "score": "0"
+                }
+            ]
+        }
+    ],
+    "id": "449934"
+}
