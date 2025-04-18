@@ -18,6 +18,7 @@ class Game:
         self.data = data
         self.head2head = head2head
         self.id = id
+        #SAVING TO FILE HERE REMOVE LATER
         self.save_to_file()
         
     
@@ -29,7 +30,7 @@ class Game:
 
 
     def save_to_file(self):
-        file_name = 'LastGame'
+        file_name = 'LastGame.json'
         output_data = self.jsonify()
         with open(file_name, 'w') as file:
             json.dump(output_data, file, indent=4)

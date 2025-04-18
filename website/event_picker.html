@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Picker</title>
+    <link rel="stylesheet" href="event_picker.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <section class="hero is-danger">
+        <div class="hero-body">
+            <p class="title">Tier 2 Valorant Tournaments</p>
+            <p class="subtitle">Challengers and Game changers</p>
+        </div>
+    </section>
+    <!-- Body Section -->
+    <section class="section">
+        <div id="card-container" class='columns'>
+            <!--CARD-->
+            <div class="card column is-two-fifths">
+                <!-- HEADER -->
+                <header class="card-header">
+                    <p class="card-header-title">League</p>
+                </header>
+                <!-- IMAGE -->
+                <div class="card-image">
+                    <figure class="image is-4by3">
+                        <img
+                            src="http://www.google.com/intl/en_com/images/logo_plain.png"
+                            alt="Placeholder image"
+                        />
+                    </figure>
+                </div>
+                <!-- TEXT CONTENT -->
+                <div class="card-content">
+                    <div class="content">
+                        Tournament name
+                    </div>
+                </div>
+                <!-- FOOTER -->
+                <footer class="card-footer">
+                    <button class="card-footer-item button">Matches</button>
+                    <button class="card-footer-item button">Teams</button>
+                </footer>
+            </div>
+            <!--CARD END-->
+        </div>
+    </section>
+    <!-- MODAL PORTION -->
+    <div class="modal is-active" id="modalI">
+        <div class="modal-card">
+            <header class="modal-card-head">
+                <p class="modal-card-title">Modal title</p>
+                <button class="delete" aria-label="close"></button>
+            </header>
+            <section class="modal-card-body">
+                Hello this is the modal content
+            </section>
+            <footer class="modal-card-foot">
+                <div class="buttons">
+                    <button class="button is-success">Save changes</button>
+                    <button class="button">Cancel</button>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+</body>
+<script src="event_picker.js"></script>
+</html>
